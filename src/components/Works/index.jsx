@@ -57,7 +57,7 @@ const Works = () => {
         </div>
        </div>
       <div className='my-contact'>
-       <div className='my-adress'>Contact to this:</div>
+       <div className='my-adress'>Contact here:</div>
        <div className='adress'>ryomaparabusiness@gmail.com</div>
       </div>
     </section>
