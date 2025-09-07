@@ -96,18 +96,41 @@
 
 .my-contact {
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(255, 244, 193);
-    margin-top: 100px;
-}
-
-.my-adress {
-    font-size: 70px;
-    margin-left: 200px;
+    padding: 20px;
     margin-top: 50px;
-    margin-bottom: 50px;
-}
-.adress {
-    font-size: 60px;
-    margin-left: 20px;
-    margin-top: 60px;
-}
+    gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  
+  .my-adress {
+    font-size: 70px; /* 元の大きさを維持 */
+    margin: 0;
+  }
+  
+  .adress {
+    font-size: 60px; /* 元の大きさを維持 */
+    margin: 0;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+  
+  /* 📱 スマホ幅 (480px以下) で縦並び & 小さめ */
+  @media (max-width: 480px) {
+    .my-contact {
+      flex-direction: column;
+      gap: 5px;
+    }
+  
+    .my-adress {
+      font-size: 24px; /* スマホ用に縮小 */
+    }
+  
+    .adress {
+      font-size: 20px;
+    }
+  }
+  

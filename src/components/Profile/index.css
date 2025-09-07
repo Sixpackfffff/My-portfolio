@@ -32,6 +32,7 @@
     margin-top: 30px;
     font-family: MS 明朝;
     font-size: 25px;
+    max-width: 100%;
 }
 
 .myfav {
@@ -46,6 +47,7 @@
 .myfav-in {
     margin-top: 17px;
     padding-left: 370px;
+    padding-right: 300px;
 }
 
 .food,.music,.film {
@@ -56,5 +58,6 @@
     padding-left: 21px;
     padding-bottom: 50px;
     font-size: 18px;
-    width: 1040px;
+    width: 100%;
+    max-width: 100%;
 }
