@@ -1,0 +1,60 @@
+.pro {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.about {
+    font-size: 70px;
+    margin-left: 180px;
+    font-weight: 400;
+    font-family: Century;
+    width: 100%;
+}
+
+.container-name {
+    display: flex;
+    justify-content: center;
+  }
+  
+.name {
+    font-size: 80px;
+    font-family: Century;
+    margin-top: 30px;
+    border-bottom: 2px solid #000;
+  }
+  
+
+.sentense {
+    text-align: center;
+    font-weight: 500;
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: MS 明朝;
+    font-size: 25px;
+}
+
+.myfav {
+    font-size: 50px;
+    font-family: Century;
+    margin-top: 50px;
+    text-align: center;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.myfav-in {
+    margin-top: 17px;
+    padding-left: 370px;
+}
+
+.food,.music,.film {
+    font-size: 25px;
+}
+
+.food-in,.music-in,.film-in {
+    padding-left: 21px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    width: 1040px;
+}

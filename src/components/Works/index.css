@@ -1,0 +1,113 @@
+.container-of-works {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.title-of-works {
+    font-size: 70px;
+    margin-left: 190px;
+    margin-top: 70px;
+    font-weight: 400;
+    font-family: Century;
+    width: 100%;
+}
+
+.works-of-faicari{
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+
+.works-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.works-grid img {
+    width: 100%;
+    height: auto;
+}
+
+.works-grid img:nth-child(7) {
+    grid-column: 2;
+}
+
+.url-faicari {
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.purpose-of-faicari {
+    font-size: 25px;
+    padding-left: 300px;
+    padding-right: 280px;
+    padding-top: 50px;
+}
+
+.content-of-faicari {
+    font-size: 25px;
+    padding-left: 300px;
+    padding-right: 280px;
+    padding-top: 50px;
+}
+
+.works-of-xaeveax {
+    font-size: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 90px;
+}
+
+.works-grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.works-grid2 img {
+    width: 100%;
+    height: auto;
+}
+
+.purpose-of-xaeveax {
+    font-size: 23px;
+    padding-left: 300px;
+    padding-right: 280px;
+    padding-top: 50px;
+}
+
+.content-of-xaeveax {
+    font-size: 23px;
+    padding-left: 300px;
+    padding-right: 280px;
+    padding-top: 50px;
+}
+
+.my-contact {
+    display: flex;
+    background-color: rgb(255, 244, 193);
+    margin-top: 100px;
+}
+
+.my-adress {
+    font-size: 70px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.adress {
+    font-size: 60px;
+    margin-left: 20px;
+    margin-top: 60px;
+}

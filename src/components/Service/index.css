@@ -1,0 +1,20 @@
+.container-service {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.title-service {
+    font-size: 70px;
+    margin-left: 180px;
+    font-weight: 400;
+    font-family: Century;
+    width: 100%;
+}
+
+.service-sentense {
+    font-size: 24px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}

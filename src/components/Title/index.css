@@ -1,0 +1,59 @@
+.title {
+    background-size: cover;
+    height: 830px;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.welcome {
+    font-size: 120px;
+    margin-left: 130px;
+    padding-top: 200px;
+    width: 100%;
+    font-family: Century;
+}
+
+.main {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.port {
+    font-size: 80px;
+    font-family: Century;
+}
+
+.myname {
+    width: 100%;
+    font-size: 150px;
+    font-family: AMORIA;
+    margin-left: 60px;
+    background-image: linear-gradient(
+		70deg,
+        rgb(145, 145, 145) 45%, 
+		rgb(0, 0, 0) 50%,
+		rgb(145, 145, 145) 55% 
+	  );
+	  background-size: 500% 100%;
+    background-clip: text;
+  	-webkit-background-clip: text;
+	  color: transparent;
+    animation: shine 3s infinite;
+}
+
+@keyframes shine {
+	0% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.job {
+    margin-left: 1380px;
+    margin-top: 30px;
+    font-size: 40px;
+}
+  
