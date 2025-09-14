@@ -18,3 +18,18 @@
     padding-right: 200px;
     padding-top: 50px;
 }
+
+@media screen and (max-width: 480px) {
+    .title-service {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .service-sentense {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+}

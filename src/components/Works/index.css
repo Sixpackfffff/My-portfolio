@@ -118,19 +118,83 @@
     overflow-wrap: anywhere;
   }
   
-  /* 📱 スマホ幅 (480px以下) で縦並び & 小さめ */
   @media (max-width: 480px) {
+
+    .title-of-works {
+        margin-left: 0px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .works-of-faicari{
+        font-size: 26px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 50px;
+    }
+
+    .works-grid {
+        display: block;
+    }
+
+    .url-faicari {
+        font-size: 30px;
+    }
+
+    .purpose-of-faicari {
+        font-size: 18px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 40px;
+    }
+
+    .content-of-faicari {
+        font-size: 18px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 50px;
+    }
+
+    .works-of-xaeveax {
+        font-size: 26px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 80px;
+    }
+
+    .works-grid2 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 9px;
+        margin: 0 auto;
+        padding: 0 10px;
+        margin-top: 40px;
+    }
+
+    .purpose-of-xaeveax {
+        font-size: 18px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 50px;
+    }
+    
+    .content-of-xaeveax {
+        font-size: 18px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 40px;
+    }
+
     .my-contact {
       flex-direction: column;
       gap: 5px;
     }
   
     .my-adress {
-      font-size: 24px; /* スマホ用に縮小 */
+      font-size: 40px; /* スマホ用に縮小 */
     }
   
     .adress {
-      font-size: 20px;
+      font-size: 28px;
     }
   }
   

@@ -56,4 +56,40 @@
     margin-top: 30px;
     font-size: 40px;
 }
-  
+
+@media screen and (max-width: 480px) {
+
+    .title {
+        height: 700px;
+        overflow-y: hidden;
+    }
+
+    .welcome {
+        font-size: 70px;
+        margin-left: 0; /* margin-leftを0にリセット */
+        padding-top: 0; /* padding-topも調整 */
+        display: flex;
+        justify-content: center; /* 水平中央 */
+        align-items: center; /* 垂直中央 */
+        text-align: center;
+        height: 40vh;
+    }
+
+    .main {
+        margin-top: -100px;
+    }
+
+    .port, .myname {
+        display: block; /* 縦並びにする */
+        margin-left: 0; /* margin-leftをリセット */
+        margin-bottom: 20px; /* 間隔を調整 */
+      }
+
+    .port {
+        font-size: 50px;
+    }
+
+    .myname {
+        font-size: 110px;
+    }
+}

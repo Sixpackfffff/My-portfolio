@@ -46,9 +46,13 @@
 
 .myfav-in {
     margin-top: 17px;
-    padding-left: 370px;
-    padding-right: 300px;
-}
+    padding-left: 0px;
+    padding-right: 0px;
+    max-width: 850px;     /* 最大幅を設定 */
+    margin-left: auto;    /* 左右中央揃え */
+    margin-right: auto;
+    padding: 0 50px;      /* 左右に余白 */
+  }
 
 .food,.music,.film {
     font-size: 25px;
@@ -60,4 +64,31 @@
     font-size: 18px;
     width: 100%;
     max-width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+    .pro {
+    }
+
+    .about {
+        font-size: 60px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .name {
+        font-size: 60px;
+    }
+
+    .sentense {
+        font-size: 20px;
+    }
+
+    .myfav {
+        font-size: 60px;
+    }
+
+    .myfav-in {
+        padding: 0 20px;
+      }
 }
