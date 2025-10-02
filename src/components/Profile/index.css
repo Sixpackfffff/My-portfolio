@@ -35,6 +35,48 @@
     max-width: 100%;
 }
 
+.my-band {
+    text-align: center;
+    font-weight: 500;
+    width: 1100px;
+    margin: auto;
+    margin-top: 30px;
+    font-family: MS 明朝;
+    font-size: 25px;
+    max-width: 100%;
+}
+
+.my-band-detail1 {
+    text-align: center;
+    font-weight: 500;
+    width: 1100px;
+    margin: auto;
+    margin-top: 15px;
+    font-family: MS 明朝;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+.my-band-detail2 {
+    text-align: center;
+    font-weight: 500;
+    width: 1100px;
+    margin: auto;
+    font-family: MS 明朝;
+    font-size: 20px;
+    max-width: 100%;
+}
+
+.url-dance {
+    text-align: center;
+    font-weight: 500;
+    width: 1100px;
+    margin: auto;
+    font-family: MS 明朝;
+    font-size: 20px;
+    max-width: 100%;
+}
+
 .myfav {
     font-size: 50px;
     font-family: Century;
